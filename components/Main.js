@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Introduce from "./Introduce";
 import About from "./About";
 import Project from "./Project";
-
+import Loading from './Loading';
 import axios from 'axios';
 
 import NotFound from './NotFound';
