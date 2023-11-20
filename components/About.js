@@ -1,7 +1,7 @@
 import React from "react";
 
-import { RiLinkedinBoxFill } from "react-icons/ri";
 
+import { ImProfile } from "react-icons/im";
 
 const About = ({ myData }) => {
   const Content = (data) => <>
@@ -112,12 +112,12 @@ const About = ({ myData }) => {
         </div>
 
         <div class="about__buttons">
-          <a href={myData.socials[0].url} class="button">
-            <i class="ri-send-plane-line"></i>Contact me
+          <a href={myData.socials[0].url} class="button ">
+         Contact me
           </a>
 
-          <a href={myData.socials[0].url} class="button__ghost">
-            <RiLinkedinBoxFill />
+          <a href={myData.socials[3].url} class="button ">
+            Download CV
           </a>
         </div>
       </div>

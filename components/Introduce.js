@@ -1,6 +1,6 @@
 import React from "react";
 import { socialIcons } from "@/utils/static";
-const Introduce = ({myData}) => {
+const Introduce = ({ myData }) => {
 
 
   return (
@@ -23,16 +23,22 @@ const Introduce = ({myData}) => {
           <div class="home__social">
 
             {
-               myData.socials && myData.socials.length > 0 && myData.socials.map((el, idx) =>
+              myData.socials && myData.socials.length > 0 && myData.socials.map((el, idx) => <>
 
-                <span onClick={(e) => {
-                  e.stopPropagation()
-                  window.location.href = el.url
-                }}
-                  class="button__ghost" >
-                  {socialIcons[idx].icon}
+                {
+                  idx !== 3 ? <span onClick={(e) => {
+                    e.stopPropagation()
+                    window.location.href = el.url
+                  }}
+                    class="button__ghost" >
+                    {socialIcons[idx].icon}
 
-                </span>
+                  </span>
+                    : <></>
+                }
+              </>
+
+
 
               )
             }

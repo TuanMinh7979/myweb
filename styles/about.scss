@@ -116,4 +116,10 @@
   align-items: center;
   column-gap: 1rem;
   grid-area: btn;
+  .button{
+    border-radius: 12px;
+    background-color: black;
+    border: 3px solid var(--first-color);
+    color:white;
+  }
 }
