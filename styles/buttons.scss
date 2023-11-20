@@ -1,0 +1,35 @@
+.button,
+.button {
+  background-color: var(--black-color);
+  padding: 1.1rem 1.5rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background-color 0.4s;
+}
+
+.button i {
+  font-size: 1.25rem;
+}
+
+.button:hover {
+  background-color: var(--first-color);
+}
+
+.button__ghost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--black-color);
+  color: var(--black-color);
+  padding: 0.2rem;
+  transition: border 0.4s, color 0.4s;
+}
+
+.button__ghost {
+  font-size: 30px;
+}
+
+.button__ghost:hover {
+  border: 3px solid var(--first-color);
+  color: var(--first-color);
+}
