@@ -49,7 +49,7 @@ const Introduce = ({ myData }) => {
         <div class="home__info">
           <div class="home__description">
             <b>Software developer</b>
-            &nbsp; Tôi là 1 lập trình viên và có 1 năm kinh nghiệm với lập trình web, hiện tại tôi đang làm việc tại công ty IVS
+            &nbsp; Tôi là 1 lập trình viên và có 1 năm kinh nghiệm với lập trình web.
           </div>
         </div>
       </div>
