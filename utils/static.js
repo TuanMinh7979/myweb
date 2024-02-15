@@ -1,4 +1,4 @@
-import { RiLinkedinBoxFill, RiFacebookBoxFill, RiGithubFill } from "react-icons/ri";
+import { RiLinkedinBoxFill, RiGithubFill } from "react-icons/ri";
 export const socialIcons= [
     {
         name: "linkedin",
@@ -9,10 +9,6 @@ export const socialIcons= [
         name: "github",
         icon: <RiGithubFill />,
 
-    },
-    {
-        name: "facebook",
-        icon: <RiFacebookBoxFill />,
+    }
 
-    },
 ]
