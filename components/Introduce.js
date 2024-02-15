@@ -11,7 +11,7 @@ const Introduce = ({ myData }) => {
         <div class="home__perfil">
           <div class="home__image">
             <img
-              src="https://media.licdn.com/dms/image/D5603AQEOXO0EE0t1kQ/profile-displayphoto-shrink_800_800/0/1680101256882?e=1703721600&v=beta&t=B_Utj6zbMvyLvpWaNiBzgmppLYLRFW6RHywdaHFEFfc"
+              src={myData.avatarLink}
               alt=""
               class="home__img"
             />
