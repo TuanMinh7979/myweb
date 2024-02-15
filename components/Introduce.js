@@ -26,7 +26,7 @@ const Introduce = ({ myData }) => {
               myData.socials && myData.socials.length > 0 && myData.socials.map((el, idx) => <>
 
                 {
-                  idx !== 2 ? <span onClick={(e) => {
+                  idx <= 2 ? <span onClick={(e) => {
                     e.stopPropagation()
                     window.location.href = el.url
                   }}
