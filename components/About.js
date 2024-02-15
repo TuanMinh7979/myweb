@@ -116,7 +116,7 @@ const About = ({ myData }) => {
          Contact me
           </a>
 
-          <a href={myData.socials[3].url} class="button ">
+          <a href={myData.socials[2].url} class="button ">
             Download CV
           </a>
         </div>
